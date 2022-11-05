@@ -93,6 +93,7 @@ header {
     padding: 10px 30px;
     border-radius: 20px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .button--dark {
@@ -824,9 +825,205 @@ header {
     height:100px;
     resize:none;
 }
+
+.section-contact form .button {
+    border: none;
+}
 .section-contact--split {
     display:flex;
 }
 .section-contact--split input:first-child {
     margin-right:20px;
 }
+
+.section-map {
+    background-image: url("../imagens/mapa.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.section-map--info-item-img img {
+    width: 15px;
+    height: auto;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+}
+
+.footer--area {
+    
+    max-width: 1240px;
+    margin: auto;
+    color: #FFF;
+    display: flex;
+}
+
+.footer--item {
+    flex: 1;
+
+}
+
+.footer-social {
+    display: flex;
+    
+}
+
+.footer-social a {
+    
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer--item.area2 {
+    color: #999;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0 10px 10px 10px;
+}
+
+.footer--item.area3 form {
+    background-color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer--item.area3 input {
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+    
+}
+.footer--item.area3 form button {
+    border: none;
+}
+/* footer {
+    background-color: #000;
+    display: flex;
+}
+
+.footer--area {
+    display: flex;
+    color: #FFF;
+    max-width: 1140px;
+    padding: 20px;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+
+}
+
+.footer--item {
+    flex: 1;
+    display: flex;
+    
+}
+
+ .footer-social {
+    
+    width: 100%;
+    margin: 10px;
+    
+}
+
+.footer-social a {
+    margin-right: 5px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.footer-social img {
+    height: 10px;
+}
+
+.area2 {
+    padding: 0px;
+    
+}
+
+.area3 {
+    justify-content: center;
+    margin: 10px;
+    display: flex;
+    background-color: rgba(146, 146, 146, 0.287);
+}
+
+.area3 form {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.area3 input {
+    width: 80%;
+    height: 40px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    border-width: 0px 0px 1px;
+    border-image: initial;
+    background: transparent;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    outline: 0px;
+} */
