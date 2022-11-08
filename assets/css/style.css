@@ -661,6 +661,7 @@ header {
 
 .section-premium--right {
     flex: 1;
+    margin-right: 20px;
 }
 
 .section-premium--item {
@@ -1232,7 +1233,10 @@ footer {
     }
 }
 
-@media screen and ( min-width: 768px ) and ( max-width: 960px) {
+
+
+
+@media screen and ( min-width: 300px ) and ( max-width: 600px ) { 
     .logo {
         margin-left: 30px;
     }
@@ -1272,122 +1276,19 @@ footer {
     color:#B28756;
     }
 
-    .section-aboutus {
-        flex-direction: column;
+    .slidearea {
+        margin: auto;
     }
 
-    .section-aboutus--left {
-        text-align: center;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 30px;
-    }
-
-    .section-aboutus--left p {
-        text-align: justify;
-    }
-
-    .section-aboutus--right  {
-        width: auto;
-    }
-    
-    .section-services {
-        flex-wrap: wrap;
+    .slidearea h1 {
+        font-size: 25px;
         
+        margin-right: 15px;
     }
 
-    .section-service {
-        min-width: 50%;
-        border-right: none;
-        margin-bottom: 30px;
-    }
-
-    .section-service:nth-child(2) img {
-        height: 59px;
-    }
-
-    .section-service:first-child {
-        border-left: none;
-    }
-
-    .section-team {
-        max-width: 580px ;
-    }
-
-    .section-premium--item {
-        margin-right: 30px;
-    }
-
-    
-    .section-map {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    
-    .section-map--area {
-        width: auto;
-    }
-    
-    .section-map--info {
-        width: auto;
-        
-    }
-
-    .section-map--info-item {
-        margin-bottom: 20px;
-    }
-
-    .section-map--info-item:last-child {
-        margin-bottom: 0;
-    }
-
-
-
-
-}
-
-
-
-
-
-@media screen and ( min-width: 320px ) and ( max-width: 600px ) { 
-    .logo {
-        margin-left: 30px;
-    }
-    .menu-opener {
-        width: 45px;
-        margin-right: 30px;
-        display: block;
-        
-    }
-
-    nav {
-        display: none;
-        position: absolute;
-        z-index: 99;
-        background-color: rgba(0, 0, 0, 0.940);
-        width: 70vw;
-        height: calc(100vh - 100px);
-        top: 100px;
-        right: 0;
-    }
-
-    .menu ul {
-        flex-direction: column;
-    }
-
-    .menu li a {
-        font-weight: bold;
-        height: 80px;
-        font-size: 27px;
-        margin-left: 50px;
-        border-bottom: 0;
-    }
-
-    .menu li a:hover,
-    .menu .active a {
-    border-bottom: 0;
-    color:#B28756;
+    .slidearea h2 {
+        font-size: 15px;
+        margin-right: 12px;
     }
 
     .section-aboutus {
@@ -1436,47 +1337,57 @@ footer {
     }
 
     .section-projects--filters {
-        width: 320px;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
         display: flex;
         
-        padding-right: 4px;
+        
         overflow: hidden;
+        
     }
 
     .section-projects--filters ul {
         flex: 1;
         flex-wrap: wrap;
+        
+        padding: 0px;
+            
     }
 
-    .section-projects--filters ul li {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+    .section-projects--filters ul :first-child {
+        margin-right: -15px;
+        
+        
+    } 
+
 
     .section-projects--filters ul li:nth-child(1), 
-     
-    .section-projects--filters ul li:nth-child(3) {
-        padding-left: 25px;
-        overflow: hidden;
-        text-align: center;
-        padding-right: 20px;
-    }
-
-    .section-projects--filters ul li:nth-child(2) {
-        padding-left: 20px;
-        padding-right: 20px;
+     .section-projects--filters ul li:nth-child(2)/*,
+    .section-projects--filters ul li:nth-child(3)*/ { 
+        margin: center;
+        margin-left: 15px;
+        
+        
     }
 
     .section-projects--filters ul li:nth-child(4) {
         border-left: none;
+    } 
+
+    .section-projects--filters ul li:nth-child(5) {
+        padding-left: 5px;
+        overflow: hidden;
+        text-align: center;
+        
     }
 
     .section-team {
-        max-width: 300px;
+        max-width: 280px;
+        
     }
-
+    
+    
     .section-companies--area {
         flex-direction: column;
         
@@ -1540,9 +1451,37 @@ footer {
         flex-direction: column;
     }
 
-    .section-premium--right {
-        margin: 70px;
+    .section-premium--left img {
+        margin: auto;
+        width: 230px;
+        /* padding-left: 0px; */
     }
+
+    .section-premium--right {
+        margin: 30px;
+        
+    }
+
+    .section-share--legend {
+        display: none;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .section-share--item {
+        flex-direction: column;
+        margin-right: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .section-share--item p {
+        
+        margin-right: 5px;
+    }
+    
+    
 
     .section-facts {
         flex-direction: column;
